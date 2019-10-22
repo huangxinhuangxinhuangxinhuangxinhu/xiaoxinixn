@@ -1,0 +1,404 @@
+.header {
+    width: 100%;
+    height: 80px;
+    border-bottom: solid 2px #F5F5F5;
+    box-shadow: 1px 1px 10px 1px rgba(15, 166, 255, .1);
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.header-content {
+    width: 1200px;
+    margin: 0 auto;
+    height: 80px;
+}
+
+.logo {
+    margin: 10px 0 0 0;
+    overflow: hidden;
+    position: relative;
+    width: 240px;
+    height: 60px;
+    float: left;
+}
+
+.header-center {
+    float: left;
+    line-height: 16px;
+    padding: 6px 10px;
+    overflow: hidden;
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+    background: #fef2f2;
+    border: 1px solid;
+    margin-top: 25px;
+}
+
+.header-center .title {
+    font-size: 12px;
+}
+
+.sign {
+    float: right;
+    font-size: 20px;
+    color: rgb(102, 102, 102);
+}
+
+.sign a {
+    color: #fff;
+    line-height: 82px;
+    height: 82px;
+    background-color: #2f97f0;
+    padding: 6px 20px;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+.content {
+    width: 440px;
+    margin: 20px auto;
+    position: relative;
+    z-index: 1;
+}
+
+.article .main-content {
+    width: 580px;
+    height: 450px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 2px solid beige;
+}
+
+.article .nav {
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    color: #d5d5d5;
+}
+
+.article .nav .nav-item {
+    display: inline-block;
+    border-bottom: 1px solid #ddd;
+    font-size: 18px;
+    width: 49%;
+    position: relative;
+}
+
+.article .nav .nav-item:first-of-type:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-left: 1px dashed #ddd
+}
+
+.article .nav .nav-item.active {
+    color: #32a1e8;
+    border-bottom: 1px solid #32a1e8;
+    width: 100%;
+}
+
+.article .register-form {
+    margin-top: 45px
+}
+
+.article .register-form .form-item {
+    margin-top: 20px;
+    font-size: 0;
+    text-align: center
+}
+
+.article .register-form .form-item .label {
+    display: inline-block;
+    line-height: 45px;
+    font-size: 12px;
+    width: 60px;
+    text-align: right;
+    margin-top: 20px;
+    vertical-align: top
+}
+
+.article .register-form .form-item .content {
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 10px
+}
+
+.article .register-form .form-item .content input,
+.article .register-form .form-item .content select {
+    border: 1px solid #ddd;
+    height: 43px;
+    text-indent: 12px
+}
+
+.article .register-form .form-item .content input {
+    width: 350px
+}
+
+.article .register-form .form-item .content select {
+    min-width: 78px
+}
+
+.article .register-form .form-item .content select.sex {
+    width: 70px
+}
+
+.article .register-form .form-item .content select+span {
+    margin: 0 6px
+}
+
+.article .register-form .form-item .content textarea {
+    width: 380px;
+    height: 50px;
+    padding: 6px 10px;
+    line-height: 24px;
+    border: 1px solid #ddd
+}
+
+.article .register-form .form-item .content.radios {
+    line-height: 30px
+}
+
+.article .register-form .form-item .content.radios label {
+    margin-right: 12px;
+}
+
+.article .register-form .form-item .btn {
+    width: 106px;
+    height: 31px;
+    margin-top: 30px;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 4px
+}
+
+.article .register-form .form-item .btn.submit {
+    background-color: #3797eb;
+    margin-left: 60px
+}
+
+.article .register-form .form-item .btn.reset {
+    background-color: #4a0;
+    margin-left: 40px
+}
+
+.article .register-form .form-item.phone-activ {
+    width: 400px;
+    height: 42px;
+    line-height: 20px;
+    color: #999;
+    margin: 15px 0;
+    font-size: 12px;
+    margin-left: 250px;
+}
+
+.article .register-form .form-item.phone-activ span {
+    background-color: #21B384;
+    margin: 0 4px;
+    padding: 0 8px;
+    font-size: 12px;
+    color: white;
+}
+
+.article .register-form .form-item.phone-code .phone-code-content {
+    font-size: 0
+}
+
+.article .register-form .form-item.phone-code .phone-code-content input {
+    font-size: 12px;
+    width: 360px
+}
+
+.article .register-form .form-item.image-code .content {
+    font-size: 0
+}
+
+.article .register-form .form-item.image-code .content input {
+    width: 190px;
+    font-size: 12px
+}
+
+.article .register-form .form-item.image-code .content .image-code-box {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 12px;
+    height: 45px
+}
+
+.article .register-form .form-item.image-code .content .image-code-box img {
+    height: 45px
+}
+
+.article .register-form .form-item.image-code .content .image-code-box a {
+    display: inline-block;
+    vertical-align: top;
+    height: 45px;
+    line-height: 22.5px;
+    color: #008fd2
+}
+
+.article .register-form .register-btn.button {
+    display: inline-block;
+    width: 350px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #32a1e8;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    border-radius: 4px;
+    outline: none;
+    border: none
+}
+
+.article .register-form .agree {
+    font-size: 12px
+}
+
+.article .register-form .agree input {
+    vertical-align: middle
+}
+
+.article .register-form .agree a {
+    color: #32a1e8
+}
+
+.form-group-error .content {
+    position: relative
+}
+
+.form-group-error .content .form-group__message {
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    display: block;
+    text-align: left
+}
+
+
+/* 底部样式 */
+
+.foot-top {
+    width: 100%;
+    height: 90px;
+    margin-top: 50px;
+    background-color: #f4f3f3;
+    border: 1px solid white;
+}
+
+.foot-top .foot-top-center {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.foot-bottom {
+    width: 100%;
+    height: 312px;
+    background-color: #f4f3f3;
+}
+
+.bottom-box {
+    width: 1200px;
+    height: 312px;
+    margin: 0 auto;
+}
+
+.bottom-box-left {
+    width: 186px;
+    height: 197px;
+    float: left;
+    padding: 50px 50px 0 20px;
+    text-align: center;
+}
+
+.bottom-box-img {
+    margin-bottom: 5px;
+    width: 116px;
+    height: 116px;
+    background: url(../images/indexBottomCode.png) no-repeat left bottom;
+}
+
+.bottom-box-left p {
+    display: block;
+    width: 116px;
+    height: 13px;
+    font-size: 12px;
+    color: #525252;
+    line-height: 13px;
+}
+
+.bottom-box-center {
+    width: 500px;
+    height: 156px;
+    margin: 0 auto;
+    float: left;
+    margin-top: 50px;
+}
+
+.bottom-box-center .box-center {
+    width: 500px;
+    height: 156px;
+}
+
+.bottom-box-center .box-center li {
+    float: left;
+    width: 110px;
+    height: 156px;
+    border-right: 1px solid white;
+}
+
+.bottom-box-center .box-center li h3 {
+    width: 80px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.bottom-box-center .box-center li a {
+    width: 80px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.bottom-box-right {
+    float: left;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.contact-us {
+    float: left;
+}
+
+.attention-us {
+    float: left;
+}
+
+.bottom-box h3 {
+    font-size: 18px;
+    line-height: 36px;
+    color: #525252;
+    font-weight: 600;
+}
+
+.bottom-box .contact-us h3+p {
+    line-height: 25px;
+    padding-top: 5px;
+}
+
+.bottom-box .attention-us {
+    position: relative;
+    float: left;
+    padding-left: 70px;
+}

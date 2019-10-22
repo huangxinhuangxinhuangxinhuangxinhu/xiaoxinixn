@@ -1,0 +1,40 @@
+{
+    "status": "success",
+    "data": [{
+            "store": "风流公子",
+            "goods": [{
+                "title": "\u767d\u4e91\u5c71 \u677f\u84dd\u6839\u9897\u7c92 10g*20\u5305 \u611f\u5192\u53d1\u70e7\u6e05\u70ed\u89e3\u6bd2\uff0c\u51c9\u8840\u5229\u54bd",
+                "src": "https:\/\/p1.maiyaole.com\/img\/item\/201908\/27\/200_20190827115405774.jpg",
+                "gid": "971744",
+                "price": "16.80",
+                "num": "1",
+                "isChecked": "1"
+            }, {
+                "title": "\u5feb\u514b \u590d\u65b9\u6c28\u915a\u70f7\u80fa\u80f6\u56ca 10\u7c92 \u666e\u901a\u611f\u5192 \u6d41\u884c\u611f\u5192 \u53d1\u70e7",
+                "src": "https:\/\/p2.maiyaole.com\/img\/item\/201909\/19\/200_20190919171939377.jpg",
+                "gid": "971777",
+                "price": "9.70",
+                "num": "1",
+                "isChecked": "1"
+            }]
+        },
+        {
+            "store": "花前月下",
+            "goods": [{
+                "title": "\u767d\u4e91\u5c71 \u677f\u84dd\u6839\u9897\u7c92 10g*20\u5305 \u611f\u5192\u53d1\u70e7\u6e05\u70ed\u89e3\u6bd2\uff0c\u51c9\u8840\u5229\u54bd",
+                "src": "https:\/\/p1.maiyaole.com\/img\/item\/201908\/27\/200_20190827115405774.jpg",
+                "gid": "971744",
+                "price": "16.80",
+                "num": "1",
+                "isChecked": "1"
+            }, {
+                "title": "\u5feb\u514b \u590d\u65b9\u6c28\u915a\u70f7\u80fa\u80f6\u56ca 10\u7c92 \u666e\u901a\u611f\u5192 \u6d41\u884c\u611f\u5192 \u53d1\u70e7",
+                "src": "https:\/\/p2.maiyaole.com\/img\/item\/201909\/19\/200_20190919171939377.jpg",
+                "gid": "971777",
+                "price": "9.70",
+                "num": "1",
+                "isChecked": "1"
+            }]
+        }
+    ]
+}

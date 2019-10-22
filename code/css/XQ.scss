@@ -1,0 +1,337 @@
+    .XQmain {
+        width: 1200px;
+        margin: 0 auto;
+        padding-top: 160px;
+        .XQnav {
+            width: 100%;
+            height: 20px;
+            padding: 10px 0;
+            margin: 0 auto;
+            font-size: 14px;
+            color: #AAA;
+        }
+        .XQcenter {
+            width: 100%;
+            height: 500px;
+            border: 1px solid beige;
+            position: relative;
+            .XQcenter-left {
+                width: 360px;
+                float: left;
+                border-right: 1px solid beige;
+                .imgbox {
+                    width: 360px;
+                    height: 360px;
+                    border: solid 1px beige;
+                    position: relative;
+                    .minImg {
+                        width: 100%;
+                        height: 100%;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                        .img-mask {
+                            width: 36px;
+                            height: 36px;
+                            background-color: rgba(0, 0, 0, .5);
+                            position: absolute;
+                            left: 0;
+                            top: 0;
+                            z-index: 2;
+                        }
+                    }
+                    .maxImg {
+                        width: 450px;
+                        height: 450px;
+                        overflow: hidden;
+                        border: 1px solid red;
+                        position: absolute;
+                        left: 400px;
+                        box-sizing: border-box;
+                        top: 0;
+                        z-index: 999;
+                        img {
+                            width: 4500px;
+                            height: 4500px;
+                            position: absolute;
+                        }
+                    }
+                }
+            }
+            .XQcenter-left-center {
+                width: 320px;
+                height: 52px;
+                margin-top: 10px;
+                margin-left: 20px;
+                img {
+                    width: 52px;
+                    height: 52px;
+                    display: block;
+                }
+            }
+            .XQcenter-left-bottom {
+                width: 350px;
+                height: 24px;
+                padding-top: 10px;
+                border-top: dotted 1px #EEE;
+                margin-top: 20px;
+                float: left;
+                li {
+                    float: left;
+                    font-size: 12px;
+                    margin-left: 10px;
+                    border: 1px solid beige;
+                }
+                span {
+                    display: block;
+                    float: right;
+                    font-size: 12px;
+                    border: 1px solid beige;
+                }
+            }
+        }
+        .XQcenter-center {
+            float: left;
+            width: 632px;
+            border-right: 1px solid beige;
+            h1 {
+                color: #333;
+                font: 700 16px/21px "Microsoft Yahei";
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                display: block;
+                overflow: hidden;
+                font-size: 14px;
+                margin: 20px;
+            }
+            .XQcenter-center-top {
+                color: #666;
+                background: #DADADA url(../images/shop/goods_meta_bg.png) no-repeat 0 50%;
+                background-size: cover;
+                padding: 15px 0;
+                position: relative;
+                p {
+                    width: 50%;
+                    margin: 10px 20px;
+                    span {
+                        width: 100px;
+                        font-size: 12px;
+                        margin: 0px 6px 0px 0px;
+                        padding: 6px 0px 0px;
+                        text-align: right;
+                    }
+                    .cost-price {
+                        text-decoration: line-through;
+                        font-size: 14px;
+                    }
+                    .XQ-price {
+                        font-size: 20px;
+                        color: red;
+                    }
+                }
+                .XQcenter-center-right {
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                    p {
+                        display: block;
+                        width: 100px;
+                        height: 100px;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    .VX {
+                        display: block;
+                        font-size: 12px;
+                        line-height: 12px;
+                        color: #666666;
+                        text-align: center;
+                    }
+                }
+            }
+            .XQcenter-center-main1 {
+                width: 100%;
+                height: 30px;
+                margin-top: 10px;
+                .main {
+                    width: 100%;
+                    height: 100%;
+                    li {
+                        float: left;
+                        font-size: 12px;
+                        color: #666;
+                        margin-right: 10px;
+                        line-height: 25px;
+                    }
+                }
+                .main li:nth-of-type(3) {
+                    font-size: 16px;
+                    font-weight: 900;
+                }
+            }
+            .min-img {
+                width: 100%;
+                span {
+                    width: 96px;
+                    height: 100%;
+                    display: block;
+                    text-align: right;
+                    float: left;
+                }
+                .main1 {
+                    float: left;
+                    width: 510px;
+                    margin-left: 10px;
+                    li {
+                        width: 141px;
+                        border: 1px solid #666;
+                        float: left;
+                        text-align: center;
+                        margin: 5px;
+                        font-size: 12px;
+                    }
+                }
+            }
+            .size {
+                width: 100%;
+                margin-top: 20px;
+                span {
+                    width: 96px;
+                    height: 100%;
+                    display: block;
+                    text-align: right;
+                    float: left;
+                }
+                .main2 {
+                    float: left;
+                    width: 510px;
+                    margin-left: 10px;
+                    li {
+                        width: 30px;
+                        border: 1px solid #666;
+                        float: left;
+                        text-align: center;
+                        margin: 5px;
+                        font-size: 12px;
+                    }
+                }
+            }
+            .XQbuy {
+                width: 622px;
+                margin: 130px 10px;
+                .XQbuy-left {
+                    vertical-align: top;
+                    display: inline-block;
+                    width: 65px;
+                    position: relative;
+                    z-index: 1;
+                    input {
+                        float: left;
+                        display: block;
+                        color: #333;
+                        font-family: Tahoma;
+                        font-size: 16px;
+                        font-weight: 600;
+                        line-height: 41px;
+                        text-align: center;
+                        height: 41px;
+                        width: 41px;
+                        padding: 0;
+                        border: solid 1px #E6E6E6;
+                    }
+                    a {
+                        width: 20px;
+                        float: left;
+                        display: block;
+                        text-align: center;
+                        font-weight: 900;
+                        border: 1px solid beige;
+                    }
+                }
+                .btn1 {
+                    width: 126px;
+                    height: 42px;
+                    padding: 5px 12px;
+                    margin-right: 5px;
+                    border-radius: 2px;
+                    background-color: #f40;
+                }
+                .btn2 {
+                    width: 126px;
+                    height: 42px;
+                    padding: 5px 12px;
+                    margin-right: 5px;
+                    border-radius: 2px;
+                    background-color: #BA7538;
+                }
+            }
+        }
+        .XQcenter-right {
+            float: left;
+            width: 206px;
+            height: 38px;
+            h4 {
+                font: 600 14px/20px "Microsoft Yahei";
+                color: #555;
+                text-align: center;
+                line-height: 38px;
+                background-color: #f5f5f5;
+            }
+            p {
+                width: 100%;
+                height: 29px;
+                span:nth-of-type(1) {
+                    font-size: 12px;
+                    color: #666;
+                    letter-spacing: normal;
+                    word-spacing: normal;
+                    text-align: right;
+                    display: block;
+                    width: 68px;
+                    line-height: 29px;
+                    float: left;
+                }
+                span:nth-of-type(2) {
+                    display: block;
+                    width: 100px;
+                    height: 100%;
+                    background: url(../images/32.png) no-repeat 100% 0;
+                    background-position: 10px 6px;
+                    float: left;
+                }
+                span:nth-of-type(3) {
+                    font-size: 14px;
+                    float: left;
+                    text-align: center;
+                    line-height: 29px;
+                }
+            }
+            h5 {
+                color: #777;
+                margin-bottom: 4px;
+                font-size: 12px;
+                strong {
+                    margin-right: 50px;
+                    margin-left: 20px;
+                }
+            }
+            .nav {
+                width: 100%;
+                li {
+                    height: 24px;
+                    font-size: 12px;
+                    line-height: 24px;
+                    color: #999;
+                    margin-left: 20px;
+                    span {
+                        font-size: 12px;
+                        color: #555;
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+    }

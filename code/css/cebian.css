@@ -1,0 +1,191 @@
+#side-column {
+    width: 35px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.side-mid {
+    height: 250px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    z-index: 555;
+}
+
+.side-mid-top {
+    width: 100%;
+    height: 46px;
+    overflow: hidden;
+}
+
+.side-mid-top:hover {
+    cursor: pointer;
+    background: blue;
+}
+
+.side-mid-top img {
+    display: block;
+    width: 28px;
+    height: 28px;
+    border-radius: 14px;
+    margin: 9px auto;
+}
+
+.side-mid-top div {
+    width: 50px;
+    height: 25px;
+    padding: 4px 21px 4px 15px;
+    position: absolute;
+    z-index: 1;
+    top: 5px;
+    right: 29px;
+    font-size: 12px;
+    color: #fff;
+    line-height: 25px;
+    background: url(https://www.baiyangwang.com/templates/default/images/toolbar.png) no-repeat -50px 0;
+    display: none;
+}
+
+.side-mid-top:hover div {
+    display: block;
+}
+
+.side-car {
+    height: 102px;
+    width: 100%;
+    padding-top: 10px;
+    text-align: center;
+    border-top: dotted 1px #555;
+    border-bottom: dotted 1px #555;
+    position: relative;
+    background-color: #666;
+}
+
+.side-car .numcar {
+    position: absolute;
+    top: 2px;
+    left: 13px;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    border-radius: 8px;
+    background: white;
+    color: #fff;
+}
+
+.side-car i {
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: url(https://www.baiyangwang.com/templates/default/images/toolbar.png) no-repeat 0 -120px;
+}
+
+.side-car:hover {
+    cursor: pointer;
+    background: blue;
+}
+
+.side-car .icongouwuchekong {
+    color: #666;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.side-car span {
+    display: inline-block;
+    width: 12px;
+    font-size: 12px;
+    color: white;
+}
+
+.side-mid span:nth-child(3) {
+    text-align: center;
+    line-height: 35px;
+    position: relative;
+    display: block;
+    width: 35px;
+    height: 35px;
+    margin-top: 5px;
+    background: #666 url(https://www.baiyangwang.com/templates/default/images/toolbar.png) no-repeat 0 0;
+}
+
+.side-mid span:nth-child(4) {
+    text-align: center;
+    line-height: 35px;
+    position: relative;
+    display: block;
+    margin-top: 5px;
+    width: 35px;
+    height: 35px;
+    background: #666 url(https://www.baiyangwang.com/templates/default/images/toolbar.png) no-repeat 0 -40px;
+}
+
+.side-mid .iconxiaoxi,
+.side-mid .icontianping {
+    color: #fff;
+    font-size: 25px;
+}
+
+.side-mid span:nth-child(3):hover,
+.side-mid span:nth-child(4):hover {
+    background-color: blue;
+    cursor: pointer;
+}
+
+.side-mid span:nth-child(3) div,
+.side-mid span:nth-child(4) div {
+    width: 50px;
+    height: 25px;
+    padding: 4px 21px 4px 15px;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    right: 29px;
+    font-size: 12px;
+    color: #fff;
+    line-height: 25px;
+    background: url(https://www.baiyangwang.com/templates/default/images/toolbar.png) no-repeat -50px 0;
+    display: none;
+}
+
+.side-mid span:nth-child(3):hover div,
+.side-mid span:nth-child(4):hover div {
+    display: block;
+}
+
+.to-top {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 35px;
+    height: 35px;
+    background: #666 url(https://www.baiyangwang.com/templates/default/images/toolbar.png) no-repeat 0 -80px;
+    cursor: pointer;
+}
+
+.to-top div {
+    width: 50px;
+    height: 25px;
+    padding: 4px 21px 4px 15px;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    right: 29px;
+    font-size: 12px;
+    color: white;
+    line-height: 25px;
+    background: url(https://www.baiyangwang.com/templates/default/images/toolbar.png) no-repeat -50px 0;
+    display: none;
+}
+
+.to-top:hover {
+    background-color: blue;
+}
+
+.to-top:hover div {
+    display: block;
+}

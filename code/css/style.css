@@ -1,0 +1,123 @@
+   * {
+       margin: 0;
+       padding: 0;
+       list-style: none;
+   }
+   
+   .main {
+       width: 960px;
+       height: 400px;
+       margin: 20px auto;
+   }
+   
+   .main-header {
+       width: 100%;
+       height: 25px;
+       position: relative;
+       /* background: #034 */
+   }
+   
+   .main-header-title {
+       font-size: 18px;
+       float: left;
+   }
+   
+   .main-header-list {
+       width: 350px;
+       position: absolute;
+       right: 0;
+       font-size: 12px;
+   }
+   
+   .main-header-list li {
+       float: left;
+       width: 70px;
+       height: 25px;
+       line-height: 25px;
+       text-align: center
+   }
+   
+   .main-header-list .cur {
+       background: rgb(113, 158, 247);
+       color: #fff;
+   }
+   
+   .main-body {
+       width: 100%;
+       height: 375px;
+       border-top: 1px solid rgb(113, 158, 247);
+       position: relative
+   }
+   
+   .main-left {
+       width: 165px;
+       height: 375px;
+       background: rgb(113, 158, 247);
+       position: absolute;
+       left: 0;
+       text-align: center
+   }
+   
+   .main-left img {
+       width: 160px;
+   }
+   
+   .main-left .des {
+       color: #fff;
+       font-size: 14px;
+   }
+   
+   .main-left ul {
+       margin-top: 20px;
+       margin-left: 10px;
+       width: 164px;
+       height: 147px;
+       font-size: 12px;
+       text-align: center;
+       color: #fff;
+   }
+   
+   .main-left ul li {
+       width: 53px;
+       height: 20px;
+       line-height: 20px;
+       float: left;
+       margin-left: 1px;
+   }
+   
+   .main-right {
+       width: 795px;
+       height: 375px;
+       position: absolute;
+       left: 165px;
+       display: none
+   }
+   
+   .current {
+       display: block
+   }
+   
+   .main-right-list li {
+       float: left;
+       border-right: 1px solid #efefef;
+       border-bottom: 1px solid #efefef;
+       width: 158px;
+       height: 186px;
+       text-align: center
+   }
+   
+   .main-right-list li img {
+       width: 100px;
+       margin: 10px;
+   }
+   
+   .main-right-list li .price {
+       color: red;
+       font-size: 12px;
+   }
+   
+   .main-right-list li .title {
+       color: #666;
+       line-height: 40px;
+       font-size: 12px;
+   }

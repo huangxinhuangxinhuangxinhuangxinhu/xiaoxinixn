@@ -1,0 +1,212 @@
+    html,
+    body {
+        width: 100%;
+        position: relative;
+    }
+    
+    #box {
+        width: 100%;
+        position: relative;
+        // 轮播图样式
+        .slider {
+            position: relative;
+            height: 400px;
+            min-width: 1004px;
+            width: 100%;
+            overflow: hidden;
+            margin-top: 160px;
+            .slider-pointer {
+                position: absolute;
+                bottom: 20px;
+                color: #fff;
+                list-style: none;
+                padding: 0;
+                z-index: 999;
+                li {
+                    display: inline-block;
+                    margin: 0 15px;
+                    width: 60px;
+                    height: 5px;
+                    border-radius: 15px;
+                    background-color: #ffffff;
+                    opacity: 0.85;
+                    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.5);
+                    transition: all 320ms ease;
+                }
+            }
+            li:hover {
+                background-color: blue;
+            }
+            li.active {
+                background-color: blue;
+            }
+            .slider-control:hover {
+                opacity: 0.65;
+                background-color: #b00005;
+            }
+            .slider-control:active {
+                opacity: 0.85;
+            }
+            .slider-inner {
+                width: 100%;
+                height: 100%;
+                position: relative;
+                .item {
+                    width: 100%;
+                    height: 100%;
+                    float: left;
+                }
+                .img {
+                    background-position: center top !important;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .slider-control.prev {
+                position: absolute;
+                width: 30px;
+                height: 30px;
+                z-index: 999;
+                border-radius: 30px;
+                text-align: center;
+                font-weight: 900;
+                font-size: 20px;
+                line-height: 30px;
+                background-color: #ffffff;
+                opacity: 0.5;
+                cursor: pointer;
+                top: 40%;
+                box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.5);
+                transition: all 320ms ease;
+                display: none;
+                left: 20px;
+            }
+            .slider-control.next {
+                position: absolute;
+                width: 30px;
+                height: 30px;
+                z-index: 999;
+                border-radius: 30px;
+                text-align: center;
+                font-weight: 900;
+                font-size: 20px;
+                line-height: 30px;
+                background-color: #ffffff;
+                opacity: 0.5;
+                cursor: pointer;
+                top: 40%;
+                box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.5);
+                transition: all 320ms ease;
+                display: none;
+                right: 20px;
+            }
+        }
+        .slider:hover .slider-control.prev {
+            display: block;
+        }
+        .slider:hover .slider-control.next {
+            display: block;
+        }
+        // 底部样式
+        .foot {
+            width: 100%;
+            height: 404px;
+            margin: 10px;
+            .foot-top {
+                width: 1200px;
+                height: 90px;
+                margin-top: 50px;
+                background-color: #f4f3f3;
+                border: 1px solid white;
+                .foot-top-center {
+                    margin: 0 auto;
+                    width: 1200px;
+                }
+            }
+            .foot-bottom {
+                width: 100%;
+                height: 312px;
+                background-color: #f4f3f3;
+                .bottom-box {
+                    width: 1200px;
+                    height: 312px;
+                    margin: 0 auto;
+                    .bottom-box-left {
+                        width: 186px;
+                        height: 197px;
+                        float: left;
+                        padding: 50px 50px 0 20px;
+                        text-align: center;
+                        .bottom-box-img {
+                            margin-bottom: 5px;
+                            width: 116px;
+                            height: 116px;
+                            background: url(../images/indexBottomCode.png) no-repeat left bottom;
+                        }
+                        p {
+                            display: block;
+                            width: 116px;
+                            height: 13px;
+                            font-size: 12px;
+                            color: #525252;
+                            line-height: 13px;
+                        }
+                    }
+                    .bottom-box-center {
+                        width: 500px;
+                        height: 156px;
+                        margin: 0 auto;
+                        float: left;
+                        margin-top: 50px;
+                        .box-center {
+                            width: 500px;
+                            height: 156px;
+                            li {
+                                float: left;
+                                width: 110px;
+                                height: 156px;
+                                border-right: 1px solid white;
+                                h3 {
+                                    width: 80px;
+                                    height: 40px;
+                                    display: block;
+                                    margin: 0 auto;
+                                    text-align: center;
+                                }
+                                a {
+                                    width: 80px;
+                                    height: 40px;
+                                    display: block;
+                                    margin: 0 auto;
+                                    text-align: center;
+                                }
+                            }
+                        }
+                    }
+                    .bottom-box-right {
+                        float: left;
+                        margin-left: 30px;
+                        margin-top: 50px;
+                        .contact-us {
+                            float: left;
+                            h3 {
+                                font-size: 18px;
+                                line-height: 36px;
+                                color: #525252;
+                                font-weight: 600;
+                            }
+                            h3+p {
+                                line-height: 25px;
+                                padding-top: 5px;
+                            }
+                        }
+                        .attention-us {
+                            position: relative;
+                            float: left;
+                            padding-left: 70px;
+                        }
+                    }
+                }
+            }
+        }
+    }
